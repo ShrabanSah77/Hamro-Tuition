@@ -1,0 +1,97 @@
+.background {
+  background: url("/assets/images/customerServiceBackground.jpg") no-repeat
+    center center/cover;
+  height: 1160px;
+  padding: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Navigation bar */
+.logo,
+svg {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.nav-item {
+  border-color: rgb(247, 139, 229);
+  margin: .5rem;
+  width: 130px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.navbar .grid-0 {
+  flex-grow: 0 !important;
+  align-items: center;
+}
+
+.navbar .form-control {
+  width: 250px;
+  border-color: rgb(247, 139, 229);
+}
+
+.card {
+  background: transparent;
+  border-color: rgb(248, 153, 219);
+}
+
+.card-body {
+  margin-top: 2rem;
+  margin-left: 40px;
+}
+
+.card-img-top {
+  width: 65px;
+  text-align: right;
+  margin-bottom: 5rem;
+}
+
+h6 {
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #606265;
+  border-color: #5f6061;
+  margin-left: 1rem;
+  width: 100px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+p {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: rgb(223, 223, 230);
+  margin-top: 0px;
+  display: flex;
+}
+
+.footer .row {
+  margin-left: 5rem;
+}
+
+.footer-img,
+.footer-img-top {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.footer-icon {
+  margin-left: 3rem;
+}

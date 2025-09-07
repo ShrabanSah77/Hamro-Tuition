@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 // Dummy user (replace with DB later)
-const USER = { email: "test@example.com", password: "123456" };
+const USER = { email: "hamrotuition52@gmail.com", password: "medicine" };
 
 // Login API
 app.post("/login", (req, res) => {

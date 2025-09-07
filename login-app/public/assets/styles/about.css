@@ -1,0 +1,57 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eae2e8;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.btn-warning {
+    font-weight: bold;
+}
+.text-orange {
+    color: #ff6a00; /* Orange shade matching the screenshot */
+}
+
+footer {
+    border-top: 1px solid #ddd;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+footer img {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.bi-facebook, .bi-instagram {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.bi-facebook:hover, .bi-instagram:hover {
+    color: #ff6a00;
+}

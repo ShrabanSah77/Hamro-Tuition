@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/styles/home.css" />
+  </head>
+  <body>
+    <div class="container-fluid m-0 p-0">
+      <!--Navbar-->
+
+      <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand active" href="#">
+            <img src="/assets/logos/movie-mate-high-resolution-logo-transparent.png" alt="" class="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse grid-0"
+            id="navbarSupportedContent"
+          >
+            <form class="d-flex" role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 grid-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >MOVIES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >SERVICES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >TICKET RATE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link active" aria-current="page" href="/pages/profile/login/login.html">SIGN IN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Carousel-->
+
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/images/img1.jpg" class="" alt="MovieMate" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/images/img2.jpg" class="" alt="MovieMate" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/images/img3.jpg" class="" alt="MovieMate" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Card -->
+      <div class="showing">
+        <h3>NOW SHOWING...</h3>
+        <div class="container text-center">
+          <div class="row row-cols-md-5 g-2">
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Buy Ticket</a
+                  >
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Buy Ticket</a
+                  >
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Buy Ticket</a
+                  >
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Buy Ticket</a
+                  >
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Buy Ticket</a
+                  >
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Buy Ticket</a
+                  >
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Buy Ticket</a
+                  >
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Buy Ticket</a
+                  >
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3>COMING SOON...</h3>
+
+        <div class="container text-center">
+          <div class="row row-cols-md-5 g-2">
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Advance Booking</a
+                  >
+                  <a href="#" class="btn">Watch review</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Advance Booking</a
+                  >
+                  <a href="#" class="btn">Watch review</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Advance Booking</a
+                  >
+                  <a href="#" class="btn">Watch review</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-2">
+              <div class="card">
+                <img
+                  src="/assets/images/img2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="/pages/payment/payment.html" class="btn"
+                    >Advance Booking</a
+                  >
+                  <a href="#" class="btn">Watch review</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Foorter -->
+
+      <section>
+      <div class="footer text-center">
+        <div class="card-body">
+          <footer class="py-4">
+            <div class="row">
+              <div class="col-sm-6 col-md-4 item">
+                <h6 class="footer">
+                  <img
+                    src="/assets/logos/movie-mate-high-resolution-logo-transparent.png"
+                    class="footer-img-top"
+                    alt="..."
+                  />
+                  <div class="col-sm-6 col-md-6 item">
+                    <ul class="footer-icon">
+                      <li class="nav-link">
+                        <h5>Director</h5>
+                        <span class="text-dark">Shraban Sah</span>
+                      </li>
+                      <li class="nav-link">
+                        <span class="text-dark">+977-9869800209</span>
+                      </li>
+                      <li class="nav-link">
+                        <span class="text-dark">+977-9819634242</span>
+                      </li>
+                    </ul>
+                  </div>
+                </h6>
+              </div>
+              <div class="col-sm-6 col-md-4 item">
+                <h5>Our services</h5>
+                <ul>
+                  <li class="nav-link">
+                    <a class="text-dark" href="/pages/payment/payment.html"
+                      >Online booking</a
+                    >
+                  </li>
+                  <li class="nav-link">
+                    <a class="text-dark" href="secure_transaction"
+                      >Get the latest movie update</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                <h5>Follow Us</h5>
+                <ul>
+                  <li class="nav-link">
+                    <a class="text-dark" href="#"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li class="nav-link">
+                    <a class="text-dark" href="#"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li class="nav-link">
+                    <a class="text-dark" href="#"
+                      >Tiktok</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

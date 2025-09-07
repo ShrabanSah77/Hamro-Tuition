@@ -1,0 +1,78 @@
+/* Navigation bar */
+.logo,
+svg {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.navbar .grid-0 {
+  flex-grow: 0 !important;
+  align-items: center;
+}
+
+.navbar .form-control {
+  width: 200px;
+}
+
+/* Caresoul */
+
+.carousel-inner img {
+  height: 80vh;
+  width: 100%;
+}
+
+/* Now showing / Comming soon */
+
+.showing {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: aqua;
+}
+
+h3{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 4rem;
+}
+
+.card {
+box-sizing: inherit;
+}
+
+.card-body{
+  box-sizing: content-box;
+}
+
+.card-body .card-text{
+  text-size-adjust: 3px;
+}
+
+.card .btn {
+  background-color: rgb(108, 241, 241);
+  color: aliceblue;
+  
+}
+
+/* Footer */
+
+.footer {
+  background-color: rgb(223, 223, 230);
+  margin-top: 10px;
+  display: flex;
+}
+
+.footer .row{
+  margin-left: 5rem;
+}
+
+.footer-img,
+.footer-img-top {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.footer-icon{
+  margin-left: 3rem;
+}

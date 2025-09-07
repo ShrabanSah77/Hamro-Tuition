@@ -1,0 +1,34 @@
+body {
+    background-color: #f5e4d8;
+    font-family: Arial, sans-serif;
+}
+
+h4 {
+    margin: 0;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.card-header {
+    background-color: #e76b1c;
+}
+
+.card-body {
+    background-color: #fff6eb;
+}
+
+.btn-warning {
+    background-color: #e76b1c;
+    border-color: #e76b1c;
+}
+
+.btn-warning:hover {
+    background-color: #d15815;
+    border-color: #d15815;
+}
+
+.badge {
+    font-size: 14px;
+}

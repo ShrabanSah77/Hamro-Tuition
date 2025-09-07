@@ -1,0 +1,21 @@
+.card {
+  background-color: rgb(218, 216, 216);
+  width: 400px;
+  border-color: rgb(244, 127, 255);
+}
+
+.img-fluid {
+  height: 140px;
+  width: 130px;
+}
+
+a {
+  margin-top: 20px;
+  color: black;
+}
+
+.checkbox{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
