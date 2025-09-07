@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <div class="card">
+      <h2>Login</h2>
+      <input id="email" type="email" placeholder="Email" required />
+      <input id="password" type="password" placeholder="Password" required />
+      <button id="loginBtn">Login</button>
+      <div id="message"></div>
+    </div>
+
+    <script>
+      document
+        .getElementById("loginBtn")
+        .addEventListener("click", async () => {
+          const email = document.getElementById("email").value.trim();
+          const password = document.getElementById("password").value.trim();
+          const msg = document.getElementById("message");
+
+          try {
+            // Same-origin request (no hard-coded host)
+            const res = await fetch("/login", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ email, password }),
+            });
+
+            const data = await res.json();
+            msg.style.color = res.ok ? "green" : "red";
+            msg.textContent = data.message || (res.ok ? "OK" : "Error");
+          } catch (e) {
+            msg.style.color = "red";
+            msg.textContent = "Network error";
+          }
+        });
+    </script>
+  </body>
+</html>
